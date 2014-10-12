@@ -30,7 +30,7 @@ for chars in replace_strings:
 mylist = clean_file.lower().split()
 wcount = Counter(mylist)
 print wcount
-print 'This document contains ' + str(len(wcount)) + ' uniqe words.' #count list items
+print 'This document contains ' + str(len(wcount)) + ' unique words.' #count list items
 
 
 #count occurrences of specific items (words) in list
